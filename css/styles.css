@@ -29,6 +29,22 @@ body {
   font-style: normal;
 }
 
+/* ===== Hidden title ===== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ===== End hidden title ===== */
+
 /* ===== COMPONENTS ===== */
 .logo {
   font-family: var(--secondary-font);
@@ -75,10 +91,50 @@ body {
 
 /* ===== HEADER ===== */
 .header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
   background-color: var(--main-background-color);
+  background-color: orange;
+}
+
+.header ul {
+  padding-left: 0;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-link {
+  display: flex;
+}
+
+.header-link .item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -87,6 +143,10 @@ body {
 }
 
 .address-link .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
