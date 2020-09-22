@@ -314,4 +314,8 @@ body {
   line-height: 1.875;
   color: var(--secondary-text-color);
 }
+
+.portfolio-card {
+  border: 1px solid #eeeeee;
+}
 /* ===== END PORTFOLIO ===== */
