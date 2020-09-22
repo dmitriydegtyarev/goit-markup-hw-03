@@ -260,6 +260,25 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+}
+
 .footer .link {
   font-weight: 400;
   font-size: 14px;
@@ -273,8 +292,13 @@ body {
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO ===== */
-portfolio {
+.portfolio {
   background-color: var(--main-background-color);
+}
+
+.portfolio-filtrs {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-title {
