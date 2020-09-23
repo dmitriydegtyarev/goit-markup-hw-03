@@ -17,16 +17,7 @@
   padding: 0;
 }
 
-body {
-  font-family: var(--main-font);
-  font-style: normal;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-}
-
 .list {
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
@@ -53,6 +44,13 @@ body {
   overflow: hidden;
 }
 /* ===== End hidden title ===== */
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
 
 /* ===== COMPONENTS ===== */
 .logo {
@@ -95,7 +93,7 @@ body {
   border: none;
 }
 
-.portfolio-filtrs .item {
+.portfolio-filtrs {
   margin-bottom: 50px;
 }
 
