@@ -82,6 +82,15 @@ body {
   line-height: 1.625;
   letter-spacing: 0.03em;
   text-decoration: none;
+  border: none;
+}
+
+.portfolio-filtrs .item {
+  margin-bottom: 50px;
+}
+
+.portfolio-filtrs .item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button-portfolio:hover,
@@ -96,8 +105,8 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
-  margin-bottom: 94px;
-  background-color: var(--main-background-color);
+  /* background-color: var(--main-background-color); */
+  background-color: green;
 }
 
 .header .list {
@@ -293,7 +302,31 @@ body {
 
 /* ===== PORTFOLIO ===== */
 .portfolio {
-  background-color: var(--main-background-color);
+  /* background-color: var(--main-background-color); */
+  background-color: plum;
+}
+
+.portfolio .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 94px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list .item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.portfolio-list .item:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 
 .portfolio-filtrs {
@@ -315,7 +348,17 @@ body {
   color: var(--secondary-text-color);
 }
 
+.portfolio-img {
+  display: block;
+}
+
 .portfolio-card {
-  border: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 /* ===== END PORTFOLIO ===== */
