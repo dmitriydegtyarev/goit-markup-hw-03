@@ -145,6 +145,8 @@ body {
 }
 
 .header .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   display: flex;
   align-items: center;
   margin-right: 93px;
