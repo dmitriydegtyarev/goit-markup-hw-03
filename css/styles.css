@@ -66,8 +66,6 @@ body {
 
 /* ===== COMPONENTS ===== */
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-size: 26px;
@@ -383,12 +381,9 @@ body {
 
 /* ===== PORTFOLIO ===== */
 .portfolio {
-  background-color: var(--main-background-color);
-}
-
-.portfolio .container {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--main-background-color);
 }
 
 .portfolio-list {
