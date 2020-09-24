@@ -210,12 +210,9 @@ body {
 
 /* ===== HERO ===== */
 .hero {
-  background-color: var(--secondary-background-color);
-}
-
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--secondary-background-color);
 }
 
 .hero-title {
@@ -235,12 +232,9 @@ body {
 
 /* ===== ABOUT US ===== */
 .about {
-  background-color: var(--main-background-color);
-}
-
-.about .container {
   padding-top: 94px;
   padding-bottom: 47px;
+  background-color: var(--main-background-color);
 }
 
 .about-list {
@@ -270,12 +264,9 @@ body {
 
 /* ===== WHAT ARE WE DOING ===== */
 .works {
-  background-color: var(--main-background-color);
-}
-
-.works .container {
   padding-top: 47px;
   padding-bottom: 94px;
+  background-color: var(--main-background-color);
 }
 
 .works .title {
@@ -298,12 +289,9 @@ body {
 
 /* ===== OUR TEAM ===== */
 .team {
-  background-color: var(--the-third-background-color);
-}
-
-.team .container {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--the-third-background-color);
 }
 
 .team-list {
