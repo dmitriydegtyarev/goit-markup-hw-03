@@ -244,6 +244,10 @@ body {
   justify-content: space-between;
 }
 
+.about-list .item {
+  max-width: 270px;
+}
+
 .about-list .item:not(:last-child) {
   margin-right: 30px;
 }
