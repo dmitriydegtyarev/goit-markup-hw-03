@@ -122,6 +122,7 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
+  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--the-third-text-color);
 }
